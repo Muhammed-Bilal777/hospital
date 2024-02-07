@@ -1,0 +1,15 @@
+
+
+.services-div:hover{
+    transform: translateY(6px);
+    transition: 0.2s ease-in-out;
+}
+
+.servicecs-icons{
+    padding: 10px;
+    border-radius: 50% !important;
+    background: aqua;
+}
+.services-div h2{
+    color: brown;
+}

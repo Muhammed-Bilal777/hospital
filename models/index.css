@@ -1,0 +1,54 @@
+ .form-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  background-color: #00C9A7;
+  opacity: 70%;
+  color: #fff;
+ }
+
+ .popup-form{
+  
+width: 250px;
+ }
+
+ .form-div form{
+  
+    background: #111111;
+    color: #000;
+    margin: 5px 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .form-div form input{
+  margin: 5px 0;
+    background: #202837;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 16px;
+    color: #fff;
+ }
+
+ .form-div form input::placeholder{
+  color: #fff;
+ }
+
+ .form-div form input:focus{
+  outline: none;
+ }
+
+
+ .form-btns{
+  gap: 20px;
+  margin: 10px;
+ }
+
+ .form-btns button{
+  padding: 7px;
+ }

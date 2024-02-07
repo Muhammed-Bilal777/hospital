@@ -1,0 +1,16 @@
+.blogcard {
+    width: 250px !important;
+    box-shadow: 1px 1px 9px 0px;
+   
+}
+
+
+.blogcard:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.blogcard h2,
+.blogcard p{
+    padding: 10px 10px;
+}
