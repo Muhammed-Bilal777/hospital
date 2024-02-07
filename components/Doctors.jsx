@@ -5,6 +5,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import Slider from "react-slick";
 import { useRef } from "react";
+import images from "../src/assets/images/doc.jpg"
 
 function Doctors() {
 
@@ -117,7 +118,8 @@ function Doctors() {
               key={index}
             >
               <div>
-                <img src={e.img} alt="img"  className="h-56 rounded-t-xl w-full"/>
+                {/* <img src={e.img} alt="img"  className="h-56 rounded-t-xl w-full"/> */}
+                <img src={images} alt="img"  className="h-56 rounded-t-xl w-full" />
               </div>
               <div className="flex flex-col justify-center items-center ">
                 <h1 className="font-semibold text-xl pt-4">{e.name}</h1>
