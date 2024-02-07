@@ -10,12 +10,13 @@
 
  .popup-form{
   
-width: 250px;
+   width: 100%;
+   opacity: 1;
  }
 
  .form-div form{
   
-    background: #111111;
+    background: #000;
     color: #000;
     margin: 5px 0;
     border-radius: 6px;
@@ -27,12 +28,13 @@ width: 250px;
 
  .form-div form input{
   margin: 5px 0;
-    background: #202837;
+    background: #000;
     outline: none;
     border-radius: 5px;
     padding: 7px;
     font-size: 16px;
     color: #fff;
+    border: 1px solid #fff;
  }
 
  .form-div form input::placeholder{
