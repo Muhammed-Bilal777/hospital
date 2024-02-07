@@ -10,12 +10,12 @@ function Doctors() {
 
   const data = [
     {
-      img: "/src/assets/images/male.jpg",
+      img: "./src/assets/images/male.jpg",
       name: "Dr. Suheel",
       specialties: "Orthopedic Surgeon",
     },
     {
-      img: "/src/assets/images/female.jpg",
+      img: "./src/assets/images/female.jpg",
       name: "Dr. Asma",
       specialties: "Cardiologist",
     },
