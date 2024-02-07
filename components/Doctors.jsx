@@ -10,7 +10,7 @@ function Doctors() {
 
   const data = [
     {
-      img: "./src/assets/images/male.jpg",
+      img: "/public/image/images/male.jpg",
       name: "Dr. Suheel",
       specialties: "Orthopedic Surgeon",
     },
